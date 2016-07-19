@@ -27,13 +27,9 @@ sample(10)
 set.seed(76)
 sample(10)
 
-# Last time I sampled 500 rows as follows:
+# Setting the seed, sample 500 rows from the diamonds data frame.
 set.seed(76)
 diamonds <- dplyr::sample_n(diamonds, size = 500)
-
-# A much more elegant way to sample 500 rows is using dplyr's sample_n() function:
-data(diamonds)
-diamonds <- sample_n(diamonds, size = 500)
 
 # We
 # - add the aesthetic size to be mapped from the variable "table
