@@ -28,8 +28,8 @@ set.seed(76)
 sample(10)
 
 # Last time I sampled 500 rows as follows:
-samp <- sample(1:n, size = 500)
-diamonds <- diamonds[samp, ]
+set.seed(76)
+diamonds <- dplyr::sample_n(diamonds, size = 500)
 
 # A much more elegant way to sample 500 rows is using dplyr's sample_n() function:
 data(diamonds)
