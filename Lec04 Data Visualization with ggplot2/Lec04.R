@@ -73,8 +73,7 @@ n
 # Since the diamonds data set is too big, let's only consider a randomly chosen
 # sample of 500 of these points:
 set.seed(76)
-samp <- sample(1:n, size = 500)
-diamonds <- diamonds[samp,]
+diamonds <- dplyr::sample_n(diamonds, size = 500)
 
 
 # We build up the plot incrementally from the base:

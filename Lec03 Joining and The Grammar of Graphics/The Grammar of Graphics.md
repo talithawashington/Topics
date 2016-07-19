@@ -31,14 +31,21 @@ Example: Napolean's March on Moscow
 
 6 dimensions (variables) of information on a 2 dimensional page:
 
+**Top Map:**
+
 **`data`** | **`aes()`**  | **`geom_`**
 ------------- | ------------- | -------------
 longitude | **`x`** | **`point`** 
 latitude | **`y`** | **`point`** 
 army size | **`size`** | **`path`**
 forward vs retreat | **`color`** | **`path`**
-date | **`x, y`** | **`text`**
-temperature | **`x, y`** | **`line`**
+
+**Bottom Graph:**
+
+**`data`** | **`aes()`**  | **`geom_`**
+------------- | ------------- | -------------
+date | **`x`** | **`line`**
+temperature | **`y`** | **`line`**
 
 
 
