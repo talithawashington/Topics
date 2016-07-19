@@ -48,11 +48,10 @@ you have all necessary packages. If this doesn't work, you can follow along
 ### Week 10: 4/25 - 4/29
 
 * **Friday 4/29**
-    + No Lecture. [Doodle poll](http://doodle.com/poll/iatnxghit7ut7e5p) for signing up to open office hours.
+    + No Lecture. [Doodle poll](http://doodle.com/poll/iatnxghit7ut7e5p) for signing up to open office hours. 
 * **HW-5**. Also a few final examples of text mining:
     + [Latent Dirichlet Allocation](http://blog.echen.me/2011/08/22/introduction-to-latent-dirichlet-allocation/)
     + Using `tm` and `lda` packages: [Federalist Papers](https://github.com/rudeboybert/Federalist)
-
 * **Lec22: tm Package**
     + Files:
         + <a href="http://rpubs.com/rudeboybert/MATH216_Lec22" target="_blank">Slides</a>: Text Mining Package.
@@ -81,7 +80,6 @@ you have all necessary packages. If this doesn't work, you can follow along
     Please save this file in your `HW-3` folder and Knit. Don't forget to ensure
     you have all necessary packages. If this doesn't work, you can follow along
     [here](http://rpubs.com/rudeboybert/MATH216_HW3_Discussion).
-
 * **Lec20: Final Project and String Manipulation**
     + Final Project GitHub repo to be forked is available. Please submit your
     projects there.
