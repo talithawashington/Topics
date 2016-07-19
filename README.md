@@ -9,12 +9,13 @@ The course syllabus (and setup instructions) can be found
 
 ### Week 12: 5/9 - 5/13
 
-* **Monday 5/9**
-    + Delaney's [presentation](https://docs.google.com/presentation/d/18MnimPhU_fkdKD3YHVMYSvQ-QODQXKhWEtaasa-K1oA/edit?ts=5730a23f#slide=id.g111eeedda4_0_118).
-    + Course [feedback survey](https://docs.google.com/forms/d/1zi1-DwintN2SybU3Z-NI0UG-punWmGy4iK1RLxY0Llw/edit).
 * **Friday 5/13** Note on the ethics of Open Data Science
     + [OkCupid Data](http://www.vox.com/2016/5/12/11666116/70000-okcupid-users-data-release)
     + [Blog Post](https://ironholds.org/blog/when-science-goes-bad-consent-data-and-doubling-down-on-the-internet/)
+* **Monday 5/9**
+    + Delaney's [presentation](https://docs.google.com/presentation/d/18MnimPhU_fkdKD3YHVMYSvQ-QODQXKhWEtaasa-K1oA/edit?ts=5730a23f#slide=id.g111eeedda4_0_118).
+    + Course [feedback survey](https://docs.google.com/forms/d/1zi1-DwintN2SybU3Z-NI0UG-punWmGy4iK1RLxY0Llw/edit).
+
 
 
 
@@ -28,7 +29,7 @@ The course syllabus (and setup instructions) can be found
 
 ### Week 11: 5/2 - 5/6
 
-* **Monday 5/2**
+* **Friday 5/6**
     + No Lecture. [Doodle poll](http://doodle.com/poll/iatnxghit7ut7e5p) for signing up to open office hours.
 * **HW-4 Discussion**
     + In lab discussion
@@ -38,14 +39,19 @@ you have all necessary packages. If this doesn't work, you can follow along
         + [`HW-4_Albert_Notes.Rmd`](https://raw.githubusercontent.com/Middlebury-Data-Science/HW-4/master/HW-4_Albert_Notes.Rmd).
         + [`COUNTY.csv`](https://raw.githubusercontent.com/Middlebury-Data-Science/HW-4/master/COUNTY.csv)
         + [`R11168779_SL140.csv`](https://raw.githubusercontent.com/Middlebury-Data-Science/HW-4/master/R11168779_SL140.csv)
-* **Friday 5/6**
+* **Monday 5/2**
     + No Lecture. [Doodle poll](http://doodle.com/poll/iatnxghit7ut7e5p) for signing up to open office hours.
 
 
 
 
-
 ### Week 10: 4/25 - 4/29
+
+* **Friday 4/29**
+    + No Lecture. [Doodle poll](http://doodle.com/poll/iatnxghit7ut7e5p) for signing up to open office hours.
+* **HW-5**. Also a few final examples of text mining:
+    + [Latent Dirichlet Allocation](http://blog.echen.me/2011/08/22/introduction-to-latent-dirichlet-allocation/)
+    + Using `tm` and `lda` packages: [Federalist Papers](https://github.com/rudeboybert/Federalist)
 
 * **Lec22: tm Package**
     + Files:
@@ -57,12 +63,6 @@ you have all necessary packages. If this doesn't work, you can follow along
         + Wed 5/4: HW-4 discussion in Wilson Lab.
         + Fri 5/6: No lecture, but rather open office hours. Please send an email to schedule.
         + Mon 5/9 through Mon 5/16: Presentations.
-* **HW-5**. Also a few final examples of text mining:
-    + [Latent Dirichlet Allocation](http://blog.echen.me/2011/08/22/introduction-to-latent-dirichlet-allocation/)
-    + Using `tm` and `lda` packages: [Federalist Papers](https://github.com/rudeboybert/Federalist)
-* **Friday 4/29**
-    + No Lecture. [Doodle poll](http://doodle.com/poll/iatnxghit7ut7e5p) for signing up to open office hours.
-
 
 
 
@@ -70,12 +70,10 @@ you have all necessary packages. If this doesn't work, you can follow along
 
 ### Week 9: 4/18 - 4/22
 
-* **Lec20: Final Project and String Manipulation**
-    + Final Project GitHub repo to be forked is available. Please submit your
-    projects there.
+* **Lec21: Twitter Data**
     + Files:
-        + <a href="http://rpubs.com/rudeboybert/MATH216_Lec20" target="_blank">Slides</a>: String Manipulation.
-        + `Lec20.R` Exercise.
+        + <a href="http://rpubs.com/rudeboybert/MATH216_Lec21" target="_blank">Slides</a>: Twitter Data.
+        + `Lec21.R` Exercise.
 * **HW-3 Discussion**
     + In lab discussion
     + Files 
@@ -83,23 +81,19 @@ you have all necessary packages. If this doesn't work, you can follow along
     Please save this file in your `HW-3` folder and Knit. Don't forget to ensure
     you have all necessary packages. If this doesn't work, you can follow along
     [here](http://rpubs.com/rudeboybert/MATH216_HW3_Discussion).
-* **Lec21: Twitter Data**
-    + Files:
-        + <a href="http://rpubs.com/rudeboybert/MATH216_Lec21" target="_blank">Slides</a>: Twitter Data.
-        + `Lec21.R` Exercise.
 
+* **Lec20: Final Project and String Manipulation**
+    + Final Project GitHub repo to be forked is available. Please submit your
+    projects there.
+    + Files:
+        + <a href="http://rpubs.com/rudeboybert/MATH216_Lec20" target="_blank">Slides</a>: String Manipulation.
+        + `Lec20.R` Exercise.
 
 
 
 
 ### Week 8: 4/11 - 4/15
 
-* **Lec19: Spatial Autocorrelation**
-    + Files:
-        + <a href="http://rpubs.com/rudeboybert/MATH216_Lec19" target="_blank">Slides</a>: Spatial Autocorrelation.
-        + `Lec19.R` Exercise.
-        + `tract2010.zip` zip file of Multnomah Country, Oregon shapefiles. 
-        + <a href="https://www.youtube.com/watch?v=iZhEcRrMA-M" target="_blank">Near and Far</a>
 * **HW-4**
     + Also determined order of presentations using `presentations.R` in the `Misc` folder and Enrique's favorite number 7 as the random number generator seed value.
 
@@ -109,6 +103,12 @@ you have all necessary packages. If this doesn't work, you can follow along
 |Delaney    |Andrew         |Enrique     |Philip      |
 |Aminata    |Jacob          |Mo          |Carter      |
 |           |Christian      |            |Paul        |
+* **Lec19: Spatial Autocorrelation**
+    + Files:
+        + <a href="http://rpubs.com/rudeboybert/MATH216_Lec19" target="_blank">Slides</a>: Spatial Autocorrelation.
+        + `Lec19.R` Exercise.
+        + `tract2010.zip` zip file of Multnomah Country, Oregon shapefiles. 
+        + <a href="https://www.youtube.com/watch?v=iZhEcRrMA-M" target="_blank">Near and Far</a>
 
 
 
@@ -118,13 +118,10 @@ you have all necessary packages. If this doesn't work, you can follow along
 
 ### Week 7: 4/4 - 4/8
 
-* **Lec17: GIS and Shapefiles**
+* **Lec18: Leaflet Package**
     + Files:
-        + Guest lecture by [Patrick
-        Culbert](http://www.middlebury.edu/academics/geog/faculty/node/495656)
-        Teaching Fellow in Geography:
-        [`GIS_Raster_Vector.pdf`](https://github.com/Middlebury-Data-Science/Topics/raw/master/Lec17%20Shapefiles/GIS_Raster_Vector.pdf)
-        + `Lec17.R` Exercise.
+        + <a href="http://rpubs.com/rudeboybert/MATH216_Lec18" target="_blank">Slides</a>: Open Street Map, Leaflet.
+        + `Lec18.R` Exercise.
 * **HW-2 Discussion**
     + In lab discussion
     + Files 
@@ -132,37 +129,39 @@ you have all necessary packages. If this doesn't work, you can follow along
     Please save this file in your `HW-2` folder and Knit. Don't forget to ensure
     you have all necessary packages. If this doesn't work, you can follow along
     [here](http://rpubs.com/rudeboybert/MATH216_HW2_Discussion).
-* **Lec18: Leaflet Package**
+* **Lec17: GIS and Shapefiles**
     + Files:
-        + <a href="http://rpubs.com/rudeboybert/MATH216_Lec18" target="_blank">Slides</a>: Open Street Map, Leaflet.
-        + `Lec18.R` Exercise.
-
-
+        + Guest lecture by [Patrick
+        Culbert](http://www.middlebury.edu/academics/geog/faculty/node/495656)
+        Teaching Fellow in Geography:
+        [`GIS_Raster_Vector.pdf`](https://github.com/Middlebury-Data-Science/Topics/raw/master/Lec17%20Shapefiles/GIS_Raster_Vector.pdf)
+        + `Lec17.R` Exercise.
 
 
 
 ### Week 6: 3/21 - 3/25
 
-* **Lec14: Packages & Vignettes and Finishing Dates & Times**
-    + <a href="http://rpubs.com/rudeboybert/MATH216_Lec14" target="_blank">Slides</a>: Hadleyverse, R Packages, and Vignettes.
-    + Files:
-        + `Lec14.R` Exercise.
-        + Example of 3D plot using `plotly`: `3D_plot_ex.Rmd`
+
 * **Lec16: Shiny**
     + <a href="http://rpubs.com/rudeboybert/MATH216_Lec16" target="_blank">Slides</a>: Shiny.
     + Files: `Lec14_lubridate_solutions.R` Solutions.
     + Other:
         + [xkcd on GitHub](http://explainxkcd.com/wiki/index.php/1597:_Git).
         + [`datacamp.com`](http://www.datacamp.com) resource for learning R/Python in browser.
-
+* **Lec14: Packages & Vignettes and Finishing Dates & Times**
+    + <a href="http://rpubs.com/rudeboybert/MATH216_Lec14" target="_blank">Slides</a>: Hadleyverse, R Packages, and Vignettes.
+    + Files:
+        + `Lec14.R` Exercise.
+        + Example of 3D plot using `plotly`: `3D_plot_ex.Rmd`
 
 
 
 ### Week 5: 3/14 - 3/18
 
-* **Lec11: Even More Logistic Regression**
-    + In-class Lecture
-    + Files: `Lec11.R` Exercise.
+* **Lec13: Final Project and Dates & Times with `lubridate`**
+    + Final project [guidelines](http://htmlpreview.github.io/?https://raw.githubusercontent.com/Middlebury-Data-Science/Topics/master/Lec13%20Project/project.html). Your project proposal is due Wednesday April 6th (after break) at 11:15.
+    + Open this [Quandl](https://www.quandl.com/data/BAVERAGE/USD-USD-BITCOIN-Weighted-Price) link.
+    + Files: `Lec13.R` Exercise from "Lec13: Dates and Times with lubridate" folder.
 * **HW-1 Discussion**
     + In lab discussion
     + Files: `HW-1_Albert_Notes.Rmd` from the `HW-1` folder. 
@@ -170,28 +169,24 @@ you have all necessary packages. If this doesn't work, you can follow along
         + Save `HW-1_Albert_Notes.Rmd` in your `HW-1` project folder.
         + If you haven't already, install the `DT`, `knitr`, and `plotly` packages.
         + Load the datasets in your console.
-* **Lec13: Final Project and Dates & Times with `lubridate`**
-    + Final project [guidelines](http://htmlpreview.github.io/?https://raw.githubusercontent.com/Middlebury-Data-Science/Topics/master/Lec13%20Project/project.html). Your project proposal is due Wednesday April 6th (after break) at 11:15.
-    + Open this [Quandl](https://www.quandl.com/data/BAVERAGE/USD-USD-BITCOIN-Weighted-Price) link.
-    + Files: `Lec13.R` Exercise from "Lec13: Dates and Times with lubridate" folder.
-
+* **Lec11: Even More Logistic Regression**
+    + In-class Lecture
+    + Files: `Lec11.R` Exercise.
 
 
 
 ### Week 4: 3/7 - 3/11
 
-* **Lec08: More Regression**
-    + In-class Lecture and <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/Middlebury-Data-Science/Topics/master/Lec08%20More%20Regression/Orders_of_Magnitude.html#1" target="_blank">Slides</a>
-    + Files: `Lec08.R` Exercise.
+* **Lec10: More Logistic Regression**
+    + In-class Lecture
 * **Lec09: Logistic Regression and OkCupid Data**
     + In-class Lecture and <a href="http://rpubs.com/rudeboybert/MATH216_Lec09" target="_blank">Slides</a>
     + Files:
         + `Lec09.R` Exercise.
         + [OkCupid Data CSV](https://github.com/rudeboybert/JSE_OkCupid/raw/master/profiles.csv.zip)
-* **Lec10: More Logistic Regression**
-    + In-class Lecture
-
-
+* **Lec08: More Regression**
+    + In-class Lecture and <a href="http://htmlpreview.github.io/?https://raw.githubusercontent.com/Middlebury-Data-Science/Topics/master/Lec08%20More%20Regression/Orders_of_Magnitude.html#1" target="_blank">Slides</a>
+    + Files: `Lec08.R` Exercise.
 
 
 
@@ -199,21 +194,20 @@ you have all necessary packages. If this doesn't work, you can follow along
 
 ### Week 3: 2/29 - 3/4
 
-* **Lec05: R Markdown and More `ggplot2`**
-    + <a href="http://rpubs.com/rudeboybert/MATH216_Lec05b" target="_blank">Slides</a>: Markdown and R Markdown
-    + <a href="http://rpubs.com/rudeboybert/MATH216_Lec05" target="_blank">Slides</a>: More ggplot2
-    + Link to [R Markdown Debugging Checks](https://docs.google.com/document/d/1P7IyZ4On9OlrCOhygFxjC7XhQqyw8OludwChz-uFd_o/edit?usp=sharing)
-    + Files: `Lec05.R` Exercise.
+* **Lec07: Regression to the Mean**
+    + In-class Lecture
+    + Files: `Lec07.R` Exercise.
 * **Lec06: Finishing `ggplot2` and Tidy Data using `tidyr`**
     + <a href="https://github.com/Middlebury-Data-Science/Topics/blob/master/Lec06%20Tidy%20Data%20with%20tidyr/UCB.pdf" target="_blank">Slides</a>: UC Berkeley admissions data discussions (Click on RAW to download)
     + <a href="https://github.com/Middlebury-Data-Science/Topics/blob/master/Lec06%20Tidy%20Data%20with%20tidyr/DataWranglingWithR.pdf" target="_blank">Slides</a>: `tidyr` Package
     + Files:
         + `Lec06.R` Exercise.
         + `popdensity1990_00_10.csv` 1990, 2000, 2010 Census data.
-* **Lec07: Regression to the Mean**
-    + In-class Lecture
-    + Files: `Lec07.R` Exercise.
-
+* **Lec05: R Markdown and More `ggplot2`**
+    + <a href="http://rpubs.com/rudeboybert/MATH216_Lec05b" target="_blank">Slides</a>: Markdown and R Markdown
+    + <a href="http://rpubs.com/rudeboybert/MATH216_Lec05" target="_blank">Slides</a>: More ggplot2
+    + Link to [R Markdown Debugging Checks](https://docs.google.com/document/d/1P7IyZ4On9OlrCOhygFxjC7XhQqyw8OludwChz-uFd_o/edit?usp=sharing)
+    + Files: `Lec05.R` Exercise.
 
 
 
